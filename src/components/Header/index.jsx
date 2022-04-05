@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 import axios from "axios";
-import logoUrl from "./../../assets/logo.svg";
+//import logoUrl from "./../../assets/logo.svg";
 import { ConstructionOutlined } from "@mui/icons-material";
 
 // localstorageden alınacak token
@@ -49,7 +49,7 @@ const Header = () => {
         />
         <input type="submit" value="Add" />
       </form>
-      <img src={logoUrl} alt="Tesla" />
+      {/* <img src={logoUrl} alt="Tesla" /> */}
     </div>
   );
 };
