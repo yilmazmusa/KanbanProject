@@ -7,6 +7,7 @@ function MainBoard() {
  
   return <div style={{
 
+    
     display:"flex",
     flexDirection:"row",
     

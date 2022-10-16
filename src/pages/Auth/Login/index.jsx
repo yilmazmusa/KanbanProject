@@ -9,12 +9,15 @@ function LoginForm({ error }) {
   let history = useHistory();
 
   const submitHandler = (e) => {
+
     e.preventDefault();
 
     async function makeGetRequest() {
       let res = await axios.post("http://localhost:80/auth/login", details);
 
       let data = res.data;
+
+      
       
 
       // basarili ise history push

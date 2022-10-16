@@ -17,7 +17,8 @@ export default function ScrumBoardItem(props) {
       };
 
 
-console.log('15aa', props.item)
+
+      console.log('15aa', props.item)
 
   return (
     <Card sx={{ minWidth: 10, maxWidth: 200 }} variant="outlined">
