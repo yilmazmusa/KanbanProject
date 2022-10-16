@@ -40,6 +40,7 @@ const Header = () => {
     <div className="header">
       <form onSubmit={submitHandler}>
         <input
+        
           type="text"
           placeholder="board name"
           onChange={(e) => {

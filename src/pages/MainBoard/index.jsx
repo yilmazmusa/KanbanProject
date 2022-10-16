@@ -9,6 +9,8 @@ function MainBoard() {
 
     display:"flex",
     flexDirection:"row",
+
+    
     
   }}>
     <div>
